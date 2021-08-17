@@ -250,8 +250,8 @@ conda create --prefix ./anacondaenv pandas numpy matplotlib scikit-learn jupyter
 
 anaconda shell
 --------------
-
-conda activate /Users/emanueldumitru/env
+(base) the main environment in anaconda
+conda activate </Users/emanueldumitru/env environment> 
 conda deactivate
 conda env list
 conda install jupyter
@@ -260,11 +260,110 @@ jupyter notebook
 
 conda create -n py33
 
+* jupyter notebook m for markdown and y for code 
+
+
+
+
+exporting an environment
+
+conda env export --prefix /Users/daniel/Desktop/project_1/env > environment.yml
+
+conda env create --file environment.yml --name env_from_file
+
+TODO: personal project
+maybe accuracy prediction of raising alarms for a customer??!
+
+
+Numpy operations are a lot faster than using lists
+You can do large numerical calculation really fast
+Optimisations written in C code
+
+Vectorization via broadcasting( avoiding loops )
+broadcasting technique
+
+
+Jupyter - shift + Tab - intellisense documentation
+
+Matplotlib to visualise data - plots or figures
+Matplotlib is built on numpy arrays
+Integrates directly with pandas
+You can create basic or advanced plots
 
 
 
 
 
+Matplotlib
+---------
+
+Try to always use object-oriented interface over the pyplot interface
+
+outlayer more far from standard deviation
+
+
+
+
+Scikit-Learn ( sklearn)
+---------------------
+- python machine learning library 
+- learn patterns
+- make predictions
+- built on numpy and matplotlib 
+
+
+Scikit learn workflow
+- get data ready
+- pick a pmode to suit your problem
+- fit the model to teh data and make a prediction ( learning and using patterns )
+- evaluate the model
+- improve through experimentation
+- save and reload a trained model
+
+
+
+Machine learning is simple a function / model - receives an input and produce an output
+
+Debugging jupyter warning
+
+Updating a conda library
+-----------------------
+
+conda list
+conda update
+conda documentation package manager
+conda search <package>
+
+
+Restart notebook from start
+kernel restart
+
+%matplotlib inline
+
+conda install python=3.6.9 scikit-learned=0.22 matplotlib 
+conda list scikit-learn
+
+Shortly, in order to fix warnings you may need to update libraries that you are using
+
+
+
+Clean, Transform and Reduce the data
+---------------
+Once your data is all in numerical format, there's one more transformation you'll probably want to do to it.
+
+It's called Feature Scaling.
+
+In other words, making sure all of your numerical data is on the same scale.
+
+
+Normalization, Standardization
+
+
+
+
+
+
+ 
 
 
 
