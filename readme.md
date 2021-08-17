@@ -360,8 +360,14 @@ Normalization, Standardization
 
 
 
+# filling missing values - inputation
+# turn non-numeric values into numeric values - feature engineering / feature encoding
 
 
+use sklearn maps to check what model is the best fit
+RandomForestRegressor is based on decision trees
+
+create an if else statement program by yourself is basically a decision tree
 
  
 
