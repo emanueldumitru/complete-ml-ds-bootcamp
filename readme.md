@@ -390,6 +390,14 @@ import sys
 !conda install --yes --prefix {sys.prefix} seaborn
 
 
+R^2
+
+What R-squared does: Compares your models predictions to the mean of the targets. Values can range from negative infinity ( a very poor model ) to 1. For example, if all your model does is predict the mean of the targets, it's R^2 value would be 0. And if your model perfectly predicts a range of unmbers it's R^2 value would be 1.
+
+
+
+
+
 
 
 
