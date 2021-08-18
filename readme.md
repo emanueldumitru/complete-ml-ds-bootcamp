@@ -372,6 +372,15 @@ create an if else statement program by yourself is basically a decision tree
  
 
 
+ROC curves are a comparison of a model's true positive rate (tpr) versus a model's false positive rate (fpr). 
+
+* True positive = model predicts 1 when truth is 1
+* False positive = model predicts 1 when truth is 0
+* True negative = model predicts 0 when truth is 0 
+* False negative = model predicts 0 when truth is 1
+
+
+
 
 
 
