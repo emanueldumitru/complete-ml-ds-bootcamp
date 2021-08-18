@@ -379,6 +379,15 @@ ROC curves are a comparison of a model's true positive rate (tpr) versus a model
 * True negative = model predicts 0 when truth is 0 
 * False negative = model predicts 0 when truth is 1
 
+ROC curves and AUC metrics are evaluation metrics for binary classification models (a model which predicts one thing or another, such as heart disease or not).
+
+The ROC curve compares the true positive rate (tpr) versus the false positive rate (fpr) at different classification thresholds.
+
+
+Install package directly from jupyter notebook
+-----------------------------------------------
+import sys
+!conda install --yes --prefix {sys.prefix} seaborn
 
 
 
