@@ -457,6 +457,44 @@ Pay more attention to MAE: When being $10,000 off is twice as bad as being $5,00
 Pay more attention to MSE: When being $10,000 off is more than twice as bad as being $5,000 off.
 
 
+Improving a model
+------------------------------
+First predictions = baseline predictions First model = baseline model
+
+From a data perspective:
+
+* Could we collect more data? ( generally the more data the better)
+* Could we improve our data? ( maybe for features )
+
+From a model perspective:
+
+* Is there a better model we can use? ( scikit-learn ML map )
+* Could we improve the current model?
+
+Hyperparameters vs Parameters
+
+* Parameters = model find these patterns in data
+* Hyperparameters = settings on a model you can adjust to potentially improve its ability to find patterns
+
+Three ways to adjust hyperparameters:
+1. By hand
+2. Randomly with RandomSearchCV
+3. Exhaustively with GridSearchCV
+
+3 sets trainings, validation and test set 
+
+We're going to try and adjust:
+
+max_depth
+max_features
+min_samples_leaf
+min_samples_split
+n_estimators
+
+
+
+
+
 
 
 
