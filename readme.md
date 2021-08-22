@@ -492,8 +492,19 @@ min_samples_split
 n_estimators
 
 
+Structured data
+----------------------
+- excel spreadsheet
+- pandas
+- google sheet
+- labels
+- rows and columns
+- it fits into a table
 
 
+A good data scientist ask a lot of questions
+
+conda env export > environment.yml
 
 
 
