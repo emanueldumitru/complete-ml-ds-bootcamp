@@ -505,6 +505,13 @@ Structured data
 A good data scientist ask a lot of questions
 
 conda env export > environment.yml
+conda env create --prefix ./env -f <path_to_env_yml_file>
+
+Every project should have it's own environment
+
+Correlation matrix
+
+
 
 
 
