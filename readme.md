@@ -511,6 +511,11 @@ Every project should have it's own environment
 
 Correlation matrix
 
+- Classification and regression matrix 
+accuracy,precision,recall,f1 and r2,mae,mse,rmse
+- Confusion matrix
+true positives, true negatives, false negatives, false positives
+- Classifcation report
 
 
 
