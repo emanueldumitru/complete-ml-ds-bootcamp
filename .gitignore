@@ -13,3 +13,6 @@ condaenv
 # Model files
 *.pkl
 *.joblib
+
+
+workspace/personal-project-bulldozer-price-prediction/data/bluebook-for-bulldozers
