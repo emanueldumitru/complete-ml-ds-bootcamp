@@ -519,12 +519,106 @@ true positives, true negatives, false negatives, false positives
 
 
 
+Data engineering
+-----------------------------------------------------------------
+
+Get Data and store them in different data sources
+1. Structured data (organized and well fit to be readable, tables)
+2. Unstructured data ( pdfs, mails, etc )
+3. Binary data ( mp3, images, mp4, etc)
+
+Data mining - preprocessing and extract meaning from data
+Big data - lots of data, usually hosted in cloud providers like AWS, GCP
+Data pipeline - ETL , store , visualize, monitor performance
+
+Data ingestion - aquire data from different sources
+Data Lake - a collection of data
+Data transformation - convert data to 
+Data warehouse - structured filtered data
+
+Kafka - data streams and put it into a data lake 
+Hadoop
+Amazon S3 
+Google BigQuery / Amazon Athena / Amazon Redshift - Data warehouse
+
+**Types of databases**
+
+- Relational Database
+- NoSQL
+- NewSQL
+
+Using databases for Search ( Elasticsearch )
+Using databases for Computation ( Apache Spark )
+
+OLTP - Only transactional processing 
+OLAP - Only Analytical processing
 
 
+- Postgres
+- MongoDB
+- Apache Spark
+- Apache Flink
+- Apache Kafka
 
 
+What is Tensorflow
+------------------------------
+
+Deep learning / numerical computing framework designed by Google
+It is open source
+
+unstructured data - neural networks
+deep learning is suited best for unstructured data like 
+images, audiowaves, etc
+
+Why Tensorflow
+----------------------------
+- write fast deep learning code in Python able to run on a GPU
+- able to access many pre-built deep learning models
+- whole stack: preprocess, model, deploy
 
 
+GPU - Graphical Process Unit 
+faster than cpu, numeric computing
+
+Structured data problem - deep learning, tensorflow, transfer learning, tensor flow hub
+neural network
+
+- Classification
+- Sequence to sequence - audio wave to text or command
+- Object detection
+
+
+What is transfer Learning?
+
+- take what you know in one domani and apply it to another
+- starting from scratch can be expensive and time consuming
+- why not take advantage of what's already out there?
+
+
+Tensorflow  flow is quite similar with Scikit-learn flow
+- Get data ready ( turn it into Tensors aka np arrays or matrix)
+- Pick a model ( to suit your problem from Tensorflow Hub)
+- Fit the model to the data and make a prediction
+- Evaluate a model
+- Improve through experimentation
+- save and reload our trained model 
+
+Dog breed classification
+
+
+Binary classification - neural network activation function is sigmoid
+Loss: BinaryCrossentropy
+
+Multi-class classification - neural network activation function is softmax
+Loss: CategoricalCrossentropy
+
+hill descending, goal go at the bottom of the hill 
+Go down a hill blindfolded
+loss - height of the hill
+adam - your friend that will guide you on your way going down the hill
+
+loss function, adam optimizer ( or stochastic gradient descent)
 
 
 
