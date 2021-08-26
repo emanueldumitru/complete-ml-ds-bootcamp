@@ -622,6 +622,76 @@ loss function, adam optimizer ( or stochastic gradient descent)
 
 
 
+Transfer learning Mobile Net V2 dog vision
 
 
+Communicating your work
+-----------------------
+
+- Ability to work with others, communicating with others is essentially beside tech skills
+
+Nice questions to ask for:
+- who is it for
+- what questions will they have
+- what needs do they have
+- what concerns can you address before they arise
+
+Deliver the message to be heard and (potentially) understood
+
+Communicating with people on your team:
+- How the project is going
+- what is in the way
+- what you have done
+- what you are doing next
+- why you are doing something next
+- who else could help
+- what's not needed
+- where you are stuck
+- what is not clear
+- what questions do we have
+- are you still working towards the right thing
+- Is there any feedback or advice
+
+
+What are you working on this week, today, short period of time.
+What's working? What's not working? 
+What could be improved?
+What's your next course of action?
+Why?
+What's holding you back?
+
+Referecence overlaps
+
+Start the job before you have it by working on and share you own project
+that relate with the role you are applying for
+---------------------------------------------
+
+
+* During the week you build knowledge
+* During the weekend you work on your own projects ( skill )
+* Document on your blog ( medium )
+
+
+
+Communicating with people outside your team:
+- make sure to make it really functional / business oriented / visual / easy to understand
+
+What story are we trying to tell ?
+- sharing what worked / what didn't work / who's it for/ what do they need to know
+- progress, not perfection
+- write it down
+- document / blogging
+
+
+What am I going to learn at this job?
+
+Github / Website / 1 or 2 Big Projects / Blog / Experience
+
+Learning to learn / Start with Why
+
+Statistics course:
+https://www.youtube.com/watch?v=zouPoc49xbk&list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr
+
+Mathematics course:
+https://www.khanacademy.org/math
 
